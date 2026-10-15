@@ -41,7 +41,7 @@ Examples:
   $ cylc config myflow
 
   # print specific setting from the global config
-  $ cylc config -i '[platforms][myplatform]hosts
+  $ cylc config -i '[platforms][myplatform]hosts'
 
   # print specific section from workflow config
   $ cylc config -i '[scheduling][graph]' myflow
